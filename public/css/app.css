@@ -1,1 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(18, 180, 180);
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: rgb(75, 75, 232);
+  font-size: 3rem;
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  width: calc((100% - 1rem) / 2);
+  background-color: rgb(32, 32, 32);
+  color: whitesmoke;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.card p {
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+.card span {
+  font-weight: 800;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  margin-top: 3rem;
+}
+footer h3 {
+  font-size: 2rem;
+}
